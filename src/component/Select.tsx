@@ -19,9 +19,8 @@ function User() {
 }
 
 
-
-function Select() {
-const [defaultPrice, setdefaultPrice] =useState<number>(0)
+function ReviewPage() {
+  const [defaultPrice, setdefaultPrice] =useState<number>(0)
 const [defaultValue, setdefaultvalue] = useState(1)
 // const [total, settotal] = useState<number>(0)
 
@@ -85,13 +84,6 @@ function decres(){
 function incres(){
 setdefaultvalue((prev)=>(prev + 1))
 }
-
-
-
-
-
-
-function ReviewPage() {
   return (
     <div className="container mt-5">
       <h2 className="text-center mb-4">🛒 Review Your Selection</h2>
@@ -141,9 +133,7 @@ function ReviewPage() {
 }
 
 
-
-
-
+function Select() {
   return (
     <div>
              {/* Header */}
